@@ -15,6 +15,11 @@
   "files": [
     "dist"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wdavidcalsin/mui-theme-pack"
+  },
+  "homepage": "https://github.com/wdavidcalsin/mui-theme-pack",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
