@@ -1,7 +1,7 @@
 import { resolve } from 'pathe'
 
 import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react-swc'
+import react from '@vitejs/plugin-react'
 import * as path from 'path'
 import dts from 'vite-plugin-dts'
 

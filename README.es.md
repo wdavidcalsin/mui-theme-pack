@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="#" rel="noopener" target="_blank"><img width="150" src="./public/logo-mui-theme.png" alt="MUI logo"></a>
+  <a href="#" rel="noopener" target="_blank"><img width="150" src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/cc88809b-6095-4f60-95f1-8a09e7c7ceb1/logo-mui-theme.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230216%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230216T200845Z&X-Amz-Expires=86400&X-Amz-Signature=3119aab2427c70b137b9f1d38e94fd3eacec7ca30bf40c77dbd333bd15f355a2&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22logo-mui-theme.png%22&x-id=GetObject" alt="MUI logo"></a>
 </p>
 
 <h1 align="center">MUI Theme Pack</h1>
@@ -92,13 +92,13 @@ El paquete actualmente incluye los siguientes temas:
 - **navy-blue**: Es una variante personalizada con colores entre azul oscuro y blanco.
 
 <p align="center">
-  <a href="#" rel="noopener" target="_blank"><img width="500" src="./public/navy-blue-color.png" alt="Svg navy blue"></a>
+  <a href="#" rel="noopener" target="_blank"><img width="500" src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/1893237c-9f44-437d-862a-2da24bba78a6/navy-blue-color.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230216%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230216T200955Z&X-Amz-Expires=86400&X-Amz-Signature=609f43a85ed58dce2f0469dda53885f66c55e883148a32babc78b20710b9fedc&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22navy-blue-color.png%22&x-id=GetObject" alt="Svg navy blue"></a>
 </p>
 
 - **light-orange**: Es una variante personalizada con colores entre amarillo y naranja.
 
 <p align="center">
-  <a href="#" rel="noopener" target="_blank"><img width="500" src="./public/light-orange-color.png" alt="Svg navy blue"></a>
+  <a href="#" rel="noopener" target="_blank"><img width="500" src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/5e9b9815-d187-4856-adb9-ad3200c0a47c/light-orange-color.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230216%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230216T201039Z&X-Amz-Expires=86400&X-Amz-Signature=ee2e9027fe7d43e47bd87c30ef407b4c8c4309793f24602b1994b7ba7fd58c74&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22light-orange-color.png%22&x-id=GetObject" alt="Svg navy blue"></a>
 </p>
 
 ## Contribución
