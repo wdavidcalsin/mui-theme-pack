@@ -16,9 +16,10 @@
     "moduleResolution": "Node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "baseUrl": "./",
+    "baseUrl": ".",
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    "typeRoots": ["node_modules/@types"]
   },
   "include": ["src"],
   "exclude": ["node_modules"],

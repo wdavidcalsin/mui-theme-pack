@@ -1,5 +1,5 @@
 import { useColorMode } from '@/hooks';
-import { Stack, TextField } from '@mui/material';
+import { Button, Stack, TextField } from '@mui/material';
 
 const FormCustom = () => {
   const { toggleColorMode } = useColorMode();
@@ -16,7 +16,7 @@ const FormCustom = () => {
     >
       <TextField label="Your name" />
 
-      <button onClick={toggleColorMode}>Change Theme</button>
+      <Button onClick={toggleColorMode}>Change Theme</Button>
     </Stack>
   );
 };

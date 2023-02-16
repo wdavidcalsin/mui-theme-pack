@@ -1,16 +1,36 @@
 {
-  "name": "mui-color-theme",
-  "private": true,
-  "version": "0.0.0",
+  "name": "mui-theme-pack",
+  "private": false,
+  "version": "0.2.0",
   "type": "module",
+  "main": "./dist/index.umd.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.umd.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
+    "build:npm": "tsc && vite build",
     "preview": "vite preview",
     "lint": "eslint \"*/**/*.{js,ts,tsx}\" --fix",
     "prettier": "prettier --ignore-path .gitignore \"**/*.{js,json,ts,tsx,scss,css,md}\"",
     "format": "pnpm run prettier --write",
     "prepare": "husky install"
+  },
+  "peerDependencies": {
+    "@emotion/react": "^11.5.0",
+    "@emotion/styled": "^11.3.0",
+    "@types/react": "^17.0.0 || ^18.0.0",
+    "react": "^17.0.0 || ^18.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0"
   },
   "dependencies": {
     "@emotion/react": "^11.10.5",
@@ -26,6 +46,7 @@
     "@typescript-eslint/eslint-plugin": "^5.0.0",
     "@typescript-eslint/parser": "^5.52.0",
     "@vitejs/plugin-react": "^3.1.0",
+    "@vitejs/plugin-react-swc": "^3.1.0",
     "eslint": "^8.0.1",
     "eslint-config-prettier": "^8.6.0",
     "eslint-config-standard-with-typescript": "^34.0.0",
@@ -33,11 +54,14 @@
     "eslint-plugin-n": "^15.0.0",
     "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-react": "^7.32.2",
+    "husky": "^8.0.0",
+    "pathe": "^1.1.0",
     "prettier": "^2.8.4",
     "prettier-eslint": "^15.0.1",
-    "rollup": "^3.15.0",
     "typescript": "^4.9.5",
     "vite": "^4.1.0",
-    "husky": "^8.0.0"
-  }
+    "vite-plugin-dts": "2.0.0-beta.0"
+  },
+  "author": "Willian David",
+  "license": "MIT"
 }
