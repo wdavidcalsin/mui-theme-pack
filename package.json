@@ -1,7 +1,7 @@
 {
   "name": "mui-theme-pack",
   "private": false,
-  "version": "0.4.0",
+  "version": "0.5.0",
   "type": "module",
   "main": "./dist/index.umd.js",
   "module": "./dist/index.js",
@@ -34,6 +34,7 @@
     "@emotion/react": "^11.5.0",
     "@emotion/styled": "^11.3.0",
     "@types/react": "^17.0.0 || ^18.0.0",
+    "@mui/material": "^5.11.9",
     "react": "^17.0.0 || ^18.0.0",
     "react-dom": "^17.0.0 || ^18.0.0"
   },
