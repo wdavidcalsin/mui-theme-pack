@@ -1,7 +1,7 @@
 {
   "name": "mui-theme-pack",
   "private": false,
-  "version": "0.8.0",
+  "version": "0.9.0",
   "description": "It is a package containing a variety of themes designed to be used in your Material UI projects. In addition, you can easily switch the mode between light and dark using the hook provided. Each theme has been carefully created to bring a visually appealing and consistent look to your project. Simplify your project design with this set of preset themes and give your application a professional touch!",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -61,6 +61,15 @@
     "vite": "^4.1.0",
     "vite-plugin-dts": "2.0.0-beta.0"
   },
+  "keywords": [
+    "mui-theme-pack",
+    "mui",
+    "material ui",
+    "@material-ui",
+    "react",
+    "react-component",
+    "material design"
+  ],
   "author": "Willian David",
   "license": "MIT"
 }
