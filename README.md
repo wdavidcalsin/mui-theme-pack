@@ -31,7 +31,7 @@ yarn add mui-theme-pack
 
 ## Usage
 
-### Agregar tema
+### Add Theme
 
 To use the themes in your project, you must first import the ThemeContextProvider:
 
