@@ -1,7 +1,7 @@
 {
   "name": "mui-theme-pack",
   "private": false,
-  "version": "0.7.0",
+  "version": "0.8.0",
   "description": "It is a package containing a variety of themes designed to be used in your Material UI projects. In addition, you can easily switch the mode between light and dark using the hook provided. Each theme has been carefully created to bring a visually appealing and consistent look to your project. Simplify your project design with this set of preset themes and give your application a professional touch!",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
