@@ -1,4 +1,4 @@
-import { resolve } from 'pathe'
+import { resolve } from 'path'
 
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
@@ -10,6 +10,7 @@ export default defineConfig({
   resolve: {
     alias: [{ find: '@', replacement: path.resolve(__dirname, 'src') }],
   },
+  
   build:{
     lib: {
       entry:resolve(__dirname, 'src/index.ts'),
@@ -18,7 +19,7 @@ export default defineConfig({
       formats:['es', 'cjs', 'umd', 'iife'],
     },    
   },
-  plugins: [react(), dts({
+  plugins: [react(), dts({  
     insertTypesEntry: true
   })],
 })
